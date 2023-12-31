@@ -24,5 +24,5 @@ Route::get('/hello', function () {
 });
 
 Route::get('/post/{id}', function($id) {
-    return response('post ' . $id,200);
+    return response('post ' . $id,);
 });
