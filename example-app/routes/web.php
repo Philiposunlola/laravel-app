@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::get('/hello', function () {
     return response('<h1>Hello World</h1>', 200)
-        ->headers('Content-Type', 'text/plain');
+        ->header('Content-Type', 'text/plain');
 });
