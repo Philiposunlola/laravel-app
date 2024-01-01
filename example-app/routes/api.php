@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::middleware("/", function (Request $request) {
+Route::middleware('auth:san', function (Request $request) {
 
 }
