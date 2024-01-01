@@ -19,5 +19,5 @@ Artisan::command('inspire', function () {
 })->purpose('Display an inspiring quote');
 
 Artisan::command('inspire', function() {
-    $this->comment(ins)
-})
+    $this->comment(inspiring::quote());
+})->;
