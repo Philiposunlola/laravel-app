@@ -20,4 +20,4 @@ Artisan::command('inspire', function () {
 
 Artisan::command('inspire', function() {
     $this->comment(inspiring::quote());
-})->;
+})->purpose('Display');
