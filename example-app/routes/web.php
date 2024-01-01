@@ -23,6 +23,6 @@ Route::get('/hello', function () {
         ->header('foo', 'bar');
 });
 
-Route::get('/posts/{id}', function($id) {
-    return response('Post ' . $id,);
-});
+// Route::get('/posts/{id}', function($id) {
+//     return response('Post ' . $id,);
+// });
