@@ -25,4 +25,5 @@ Route::get('/hello', function () {
 
 Route::get('/posts/{id}', function($id) {
     return response('Post ' . $id,);
+})->where('/post/{id}', function($
 });
